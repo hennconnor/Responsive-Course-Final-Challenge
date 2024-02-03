@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    --prm-clr-700: #2E323F;
+    --prm-clr-600: #3B4050;
+    --prm-clr-500: #dadada;
+    --prm-clr-100: #FFFFFF;
+
+    --acc-clr-300: #A59678;
+
+    --ff-prm: 'Montserrat', sans-serif;
+    --ff-acc: 'Oswald', sans-serif;
+}
+
+body {
+    font-family: var(--ff-prm);
+}
+
+.container {
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1200px;
+}
+
+.nav {
+    background-color: var(--prm-clr-700);
+    color: var(--prm-clr-100);
+    font-family: var(--ff-acc);
+}
+
+.nav__list {
+    list-style: none;
+    display: none;
+}
+
+.nav__link {
+    cursor: pointer;
+    color: var(--prm-clr-100);
+    text-decoration: none;
+}
+
+.nav__link:hover,
+:focus {
+    text-decoration: underline;
+}
+
+.nav__link-button {
+    cursor: pointer;
+    display: inline-block;
+    background-color: var(--acc-clr-300);
+    color: var(--prm-clr-100);
+    text-decoration: none;
+    padding: .5rem .9rem;
+    border-radius: 100px;
+}
+
+.nav__link-button:hover,
+:focus {
+    opacity: .9;
+    text-decoration: underline;
+}
+
+
+
+.hero {
+    background-color: var(--prm-clr-600);
+    color: var(--prm-clr-100);
+}
+
+.hero__title {
+    font-family: var(--ff-acc);
+}
+
+.hero__title-accent {
+    color: var(--acc-clr-300);
+}
+
+
+
+.section-1 {
+    background-color: var(--prm-clr-500);
+    text-align: center;
+}
+
+.section-1__content-title {
+    color: var(--acc-clr-300);
+    font-family: var(--ff-acc);
+}
+
+.section-2__left-title {
+    color: var(--acc-clr-300);
+    font-family: var(--ff-acc);
+}
+
+.section-2__img {
+    margin-bottom: 2rem;
+}
+
+.section-2__right-content {
+    background-color: var(--prm-clr-600);
+    color: var(--prm-clr-100);
+    text-align: center;
+    padding: 2rem;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.section-2__right-title {
+    font-family: var(--ff-acc);
+    font-size: 1.875rem;
+}
+
+.section-2__right-text {
+    font-size: 1.125rem;
+    line-height: 1.4;
+}
+
+
+.footer {
+    background-color: var(--prm-clr-600);
+    color: var(--prm-clr-100);
+}
+
+.footer__title {
+    font-family: var(--ff-acc);
+}
+
+.footer__title-small {
+    font-family: var(--ff-acc);
+    color: var(--acc-clr-300);
+}
