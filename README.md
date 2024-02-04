@@ -23,8 +23,7 @@ This is a solution to the Final Challenge for a Conquering Responsive Layouts co
 -Website should utilize 2 breakpoints at 700px and 1000px to change layout.
 
 ### Sample of Layout
-
-![]([images/Template Sample.png](https://github.com/hennconnor/Responsive-Course-Final-Challenge/blob/65d557340c478d1be50ef3bb19770c8114776d57/images/Template%20Sample.png))
+<img width="639" alt="Template Sample" src="https://github.com/hennconnor/Responsive-Course-Final-Challenge/assets/106931311/33b67abe-b35a-4b7e-81da-b83211cd91f1">
 
 ### Links
 
