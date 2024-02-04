@@ -24,7 +24,7 @@ This is a solution to the Final Challenge for a Conquering Responsive Layouts co
 
 ### Screenshot
 
-![](images/Template Sample.png)
+![]([images/Template Sample.png](https://github.com/hennconnor/Responsive-Course-Final-Challenge/blob/65d557340c478d1be50ef3bb19770c8114776d57/images/Template%20Sample.png))
 
 ### Links
 
