@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Responsive Final Challenge</title>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
 </head>
 
 <body>
     <header>
         <nav class="nav">
-            <div class="container">
-                <img src="images/logo.svg" alt="logo for CRL" />
+            <div class="container nav__row">
+                <div class="nav__flex">
+                    <img src="images/logo.svg" alt="logo for CRL" />
+                    <button class="nav-toggle" aria-label="open navigation">
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a class="nav__link" href="#!">Home</a>
@@ -31,88 +36,93 @@
                         <a class="nav__link-button" href="#!">Sign Up</a>
                     </li>
                 </ul>
-                <img src="images/hamburger.png" class="hamburger" />
             </div>
         </nav>
     </header>
     <section class="hero">
         <div class="container">
-            <h1 class="hero__title">Responsive Layouts <span class="hero__title-accent">don’t
-                    have to be a
-                    struggle</span></h1>
-            <div>
-                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
-                <a class="hero__link">I want to learn</a>
+            <div class="hero__flex">
+                <h1 class="hero__title">Responsive Layouts <span class="hero__title-accent">don’t
+                        have to be a
+                        struggle</span></h1>
+                <div>
+                    <p class="hero__text">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="hero__link">I want to learn</a>
+                </div>
             </div>
         </div>
     </section>
     <section class="section-1">
         <div class="container">
-            <div class="section-1__content">
-                <h3 class="section-1__content-title">Mobile First</h3>
-                <p class="section-1__content-text">Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut
-                    enim ad minim veniam.</p>
-            </div>
-            <div class="section-1__content">
-                <h3 class="section-1__content-title">Efficient</h3>
-                <p class="section-1__content-text">Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut
-                    enim ad minim veniam.</p>
-            </div>
-            <div class="section-1__content">
-                <h3 class="section-1__content-title">Done Right</h3>
-                <p class="section-1__content-text">Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut
-                    enim ad minim veniam.</p>
+            <div class="section-1__flex">
+                <div class="section-1__content">
+                    <h3 class="section-1__content-title">Mobile First</h3>
+                    <p class="section-1__content-text">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut
+                        enim ad minim veniam.</p>
+                </div>
+                <div class="section-1__content">
+                    <h3 class="section-1__content-title">Efficient</h3>
+                    <p class="section-1__content-text">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut
+                        enim ad minim veniam.</p>
+                </div>
+                <div class="section-1__content">
+                    <h3 class="section-1__content-title">Done Right</h3>
+                    <p class="section-1__content-text">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut
+                        enim ad minim veniam.</p>
+                </div>
             </div>
         </div>
     </section>
     <section class="section-2">
         <div class="container">
-            <div class="section-2__left">
-                <h3 class="section-2__left-title">It doesn’t have to be so hard</h3>
-                <p class="section-2__left-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <img class='section-2__img' src="images/the-image.jpg" alt="doodles of website layout designs" />
-                <p class="section-2__left-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam.</p>
-            </div>
-            <div class="section-2__right">
-                <div class="section-2__right-content">
-                    <h3 class="section-2__right-title">Break it down</h3>
-                    <p class="section-2__right-text">Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
+            <div class="section-2__flex">
+                <div class="section-2__left">
+                    <h3 class="section-2__left-title">It doesn’t have to be so hard</h3>
+                    <p class="section-2__left-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <img class='section-2__img' src="images/the-image.jpg" alt="doodles of website layout designs" />
+                    <p class="section-2__left-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
-                <div class="section-2__right-content">
-                    <h3 class="section-2__right-title">Work your way up</h3>
-                    <p class="section-2__right-text">Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </div>
-                <div class="section-2__right-content">
-                    <h3 class="section-2__right-title">Break it down</h3>
-                    <p class="section-2__right-text">Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
+                <div class="section-2__right">
+                    <div class="section-2__right-content">
+                        <h3 class="section-2__right-title">Break it down</h3>
+                        <p class="section-2__right-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="section-2__right-content">
+                        <h3 class="section-2__right-title">Work your way up</h3>
+                        <p class="section-2__right-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="section-2__right-content">
+                        <h3 class="section-2__right-title">Break it down</h3>
+                        <p class="section-2__right-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,32 +130,40 @@
     <footer class="footer">
         <div class="container">
             <h2 class="footer__title">just scratching the surface</h2>
-            <div class="footer__section-left">
-                <h4 class="footer__title-small">About our company</h4>
-                <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam.</p>
-            </div>
-            <div class="footer__section-right">
-                <div class="link-col">
-                    <h4 class="footer__title-small">Getting around</h4>
-                    <a class="footer__link">Home</a>
-                    <a class="footer__link">About</a>
-                    <a class="footer__link">Contact</a>
+            <div class="footer__row">
+                <div class="footer__section-left">
+                    <h4 class="footer__title-small">About our company</h4>
+                    <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
-                <div class="link-col">
-                    <h4 class="footer__title-small">Other things</h4>
-                    <a class="footer__link">Lorem ipsum</a>
-                    <a class="footer__link">dolor</a>
-                    <a class="footer__link">sit amet</a>
-                    <a class="footer__link">consectetur</a>
-                </div>
-                <div class="link-col">
-                    <h4 class="footer__title-small">And more</h4>
-                    <a class="footer__link">Lorem ipsum</a>
-                    <a class="footer__link">dolor</a>
-                    <a class="footer__link">sit amet</a>
-                    <a class="footer__link">consectetur</a>
+                <div class="footer__section-right">
+                    <div class="link-col">
+                        <h4 class="footer__title-small">Getting around</h4>
+                        <div class="links">
+                            <a class="footer__link">Home</a>
+                            <a class="footer__link">About</a>
+                            <a class="footer__link">Contact</a>
+                        </div>
+                    </div>
+                    <div class="link-col">
+                        <h4 class="footer__title-small">Other things</h4>
+                        <div class="links">
+                            <a class="footer__link">Lorem ipsum</a>
+                            <a class="footer__link">dolor</a>
+                            <a class="footer__link">sit amet</a>
+                            <a class="footer__link">consectetur</a>
+                        </div>
+                    </div>
+                    <div class="link-col">
+                        <h4 class="footer__title-small">And more</h4>
+                        <div class="links">
+                            <a class="footer__link">Lorem ipsum</a>
+                            <a class="footer__link">dolor</a>
+                            <a class="footer__link">sit amet</a>
+                            <a class="footer__link">consectetur</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
